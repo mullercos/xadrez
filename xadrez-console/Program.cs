@@ -1,8 +1,8 @@
 ﻿using System;
 using Tabuleiro;
+using xadrez_console;
 
 Tab tab = new Tab(8, 8);
 
-Posicao p = new Posicao(3, 4);
+Tela.ImprimirTabuleiro(tab);
 
-Console.WriteLine("Posição: " + p);
